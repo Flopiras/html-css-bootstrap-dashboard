@@ -23,11 +23,37 @@
 
 <body>
     <!-- header -->
-    <header class="container-fluid">header
-        <div class="row">
-            <div class="col-2 col-xl-3"></div>
-            <div class="col-9 col-xl-6"></div>
-            <div class="col-1 col-xl-3"></div>
+    <header class="container-fluid">
+        <div class="row align-items-baseline">
+            <div class="col-2 col-xl-3">
+                <img id="small-logo" class="d-xl-none" src="img/mobile-logo.png" alt="Logo">
+                <img id="big-logo" class="d-none d-xl-inline" src="img/logo.svg" alt="Logo">
+            </div>
+            <div class="col-9 col-xl-6">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 bg-darkgrey" type="search"
+                        placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                </form>
+            </div>
+            <div class="col-1 col-xl-3 text-end"><a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <i class="fa-solid fa-bell fa-xl text-warning"></i>
+                </a>
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            Some text as placeholder. In real life you can have the elements you have chosen. Like,
+                            text, images, lists, etc.
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <!-- bottom (aside + main) -->

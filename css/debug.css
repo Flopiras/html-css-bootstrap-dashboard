@@ -1,6 +1,5 @@
 header{
     border: 2px solid purple;
-    min-height: 80px;
 }
 
 aside{
@@ -22,5 +21,4 @@ main{
 
 [class^='col']{
     border: 2px dashed lightcoral;
-    min-height: 50px;
 }

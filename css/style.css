@@ -1,3 +1,20 @@
+/* **********UTILITY*********** */
+.bg-darkgrey{
+    background-color: #E5E5E5;
+}
+
+/* *********HEADER************* */
+#small-logo{
+    width: 55px;
+    max-height: 80px;
+    object-fit: contain;
+}
+
+#big-logo{
+    width: 200px;
+}
+
+/* ***********BOTTOM*********** */
 main{
     height: calc(100vh - 80px);
 }
