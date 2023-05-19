@@ -1,0 +1,26 @@
+header{
+    border: 2px solid purple;
+    min-height: 80px;
+}
+
+aside{
+    border: 2px solid blue;
+    width: 100px;
+}
+
+main{
+    border: 2px solid green;
+    height: calc(100vh - 80px);
+}
+
+[class^='container']{
+    border: 1px dashed orange;
+}
+
+.row{
+    border: 2px solid black;
+}
+
+[class^='col']{
+    border: 2p dashed lightcoral;
+}
