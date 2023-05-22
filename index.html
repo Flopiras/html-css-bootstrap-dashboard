@@ -176,16 +176,16 @@
             </div>
             <div class="content container-fluid">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-12 col-lg-8">
                         <div class="card my-2">
                             <h5 class="card-header">Prossime classi</h5>
                             <div class="card-body">
                                 <table class="table">
                                     <thead>
                                         <tr>
-                                            <th scope="col ">Nome</th>
-                                            <th scope="col">Data inizio</th>
-                                            <th scope="col">ROI</th>
+                                            <th scope="col">Nome</th>
+                                            <th scope="col" class="d-none d-md-table-cell">Data inizio</th>
+                                            <th scope="col" class="d-none d-md-table-cell">ROI</th>
                                             <th scope="col">Stato</th>
                                             <th scope="col">Azioni</th>
                                         </tr>
@@ -194,8 +194,8 @@
                                         <tr>
                                             <td><img class="table-img" src="img/class-avatar.jpg" alt="."> <span>Classe
                                                     75</span></td>
-                                            <td>15 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                             <td>
                                                 <button type="button" class="btn btn-outline-secondary"><i
@@ -207,8 +207,8 @@
                                         <tr>
                                             <td><img class="table-img" src="img/class-avatar.jpg" alt="."> <span>Classe
                                                     76</span></td>
-                                            <td>16 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="d-none d-md-table-cell">16 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                             <td>
                                                 <button type="button" class="btn btn-outline-secondary"><i
@@ -220,8 +220,8 @@
                                         <tr>
                                             <td><img class="table-img" src="img/class-avatar.jpg" alt="."> <span>Classe
                                                     77</span></td>
-                                            <td>17 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="d-none d-md-table-cell">17 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span
                                                     class="badge rounded-pill text-bg-warning text-white">Process</span>
                                             </td>
@@ -235,8 +235,8 @@
                                         <tr>
                                             <td><img class="table-img" src="img/class-avatar.jpg" alt="."> <span>Classe
                                                     78</span></td>
-                                            <td>18 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="d-none d-md-table-cell">18 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                             <td>
                                                 <button type="button" class="btn btn-outline-secondary"><i
@@ -248,8 +248,8 @@
                                         <tr>
                                             <td><img class="table-img" src="img/class-avatar.jpg" alt="."> <span>Classe
                                                     79</span></td>
-                                            <td>19 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="d-none d-md-table-cell">19 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge rounded-pill text-bg-danger">failed</span></td>
                                             <td>
                                                 <button type="button" class="btn btn-outline-secondary"><i
@@ -261,8 +261,8 @@
                                         <tr>
                                             <td><img class="table-img" src="img/class-avatar.jpg" alt="."> <span>Classe
                                                     80</span></td>
-                                            <td>20 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="d-none d-md-table-cell">20 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                             <td>
                                                 <button type="button" class="btn btn-outline-secondary"><i
@@ -274,8 +274,8 @@
                                         <tr>
                                             <td><img class="table-img" src="img/class-avatar.jpg" alt="."> <span>Classe
                                                     81</span></td>
-                                            <td>21 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="d-none d-md-table-cell">21 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge rounded-pill text-bg-danger">failed</span></td>
                                             <td>
                                                 <button type="button" class="btn btn-outline-secondary"><i
@@ -287,8 +287,8 @@
                                         <tr>
                                             <td><img class="table-img" src="img/class-avatar.jpg" alt="."> <span>Classe
                                                     82</span></td>
-                                            <td>22 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="d-none d-md-table-cell">22 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                             <td>
                                                 <button type="button" class="btn btn-outline-secondary"><i
@@ -301,9 +301,90 @@
                                 </table>
                             </div>
                         </div>
-
+                        <div class="card my-2">
+                            <h5 class="card-header">F.A.Q.</h5>
+                            <div class="card-body">
+                                <div class="accordion accordion-flush" id="accordionFlush">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                aria-expanded="false" aria-controls="flush-collapseOne">
+                                                Come aggiungere un nuovo studente?
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Aliquam, nam doloribus possimus eligendi inventore
+                                                dicta porro iste, tempora ea totam quos magni quidem facilis sed
+                                                obcaecati, quibusdam provident cupiditate culpa.</div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                Come posso accedere alle informazioni del mio account?
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Officia laudantium est soluta accusantium! Expedita
+                                                veniam itaque cum accusamus? Quos laboriosam molestiae, qui illo
+                                                corrupti vitae optio nesciunt nemo non necessitatibus!</div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                aria-expanded="false" aria-controls="flush-collapseThree">
+                                                Posso usare questa dashboard da mobile?
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingThree"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur
+                                                adipisicing elit. Odit repellendus temporibus laboriosam cupiditate
+                                                similique non veniam eveniet, illum accusantium voluptas ipsum nostrum
+                                                officiis. Nostrum dignissimos dolores iusto, eligendi possimus culpa?
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col"></div>
+                    <div class="col-12 col-lg-4">
+                        <div class="card my-2">
+                            <h5 class="card-header">Todo</h5>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="kickoff"
+                                            id="kickoff">
+                                        <label class="form-check-label" for="kickoff">Kickoff nuove classi</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="bootstrap-lesson"
+                                            id="bootstrap-lesson">
+                                        <label class="form-check-label" for="bootstrap-lesson">Lezione su Bootstrap 5 in
+                                            classe #75</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="ckeck-github-name"
+                                            id="ckeck-github-name">
+                                        <label class="form-check-label" for="ckeck-github-name">Controllare username
+                                            github studenti</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
