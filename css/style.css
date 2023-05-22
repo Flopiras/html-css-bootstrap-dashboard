@@ -30,6 +30,10 @@ aside{
 }
 
 /* MAIN */
+.table-img{
+    max-width: 30px;
+}
+
 #header-main{
     min-height: 80px;
 }
