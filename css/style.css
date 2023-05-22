@@ -14,7 +14,27 @@
     width: 200px;
 }
 
+
 /* ***********BOTTOM*********** */
-main{
-    height: calc(100vh - 80px);
+aside{
+    width: 100px;
 }
+
+.bottom{
+    height: calc(100vh - 65px);
+}
+
+@media screen and (min-width: 1200px) {
+    header{
+        height: 54px;
+    }
+
+    .bottom{
+        height: calc(100vh - 54px);
+    }
+
+    aside{
+        width: 200px;
+    }
+}
+
