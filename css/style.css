@@ -15,7 +15,7 @@
 }
 /* ***********BOTTOM*********** */
 aside{
-    width: 100px;
+    width: 80px;
     background-image: url(../img/sidebar-bg.png);
     background-color: rgb(5,30,52);
 }
@@ -34,7 +34,7 @@ aside{
     }
 
     aside{
-        width: 200px;
+        width: 150px;
     }
 }
 
