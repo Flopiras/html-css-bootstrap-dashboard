@@ -14,14 +14,20 @@
     width: 200px;
 }
 /* ***********BOTTOM*********** */
+.bottom{
+    height: calc(100vh - 55px);
+}
+
+/* NAVBAR */
 aside{
     width: 80px;
     background-image: url(../img/sidebar-bg.png);
     background-color: rgb(5,30,52);
 }
 
-.bottom{
-    height: calc(100vh - 65px);
+/* MAIN */
+#header-main{
+    min-height: 80px;
 }
 
 @media screen and (min-width: 992px) {
