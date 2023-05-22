@@ -13,18 +13,18 @@
 #big-logo{
     width: 200px;
 }
-
-
 /* ***********BOTTOM*********** */
 aside{
     width: 100px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: rgb(5,30,52);
 }
 
 .bottom{
     height: calc(100vh - 65px);
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
     header{
         height: 54px;
     }
