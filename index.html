@@ -26,8 +26,8 @@
     <header class="container-fluid">
         <div class="row align-items-baseline">
             <div class="col-2 col-xl-3">
-                <img id="small-logo" class="d-xl-none" src="img/mobile-logo.png" alt="Logo">
-                <img id="big-logo" class="d-none d-xl-inline" src="img/logo.svg" alt="Logo">
+                <a class="logo d-xl-none" href="#"><img id="small-logo" src="img/mobile-logo.png" alt="Logo"></a>
+                <a class="logo d-none d-xl-inline" href="#"><img id="big-logo" src="img/logo.svg" alt="Logo"></a>
             </div>
             <div class="col-9 col-xl-6">
                 <form class="d-flex" role="search">
@@ -35,11 +35,19 @@
                         placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
                 </form>
             </div>
-            <div class="col-1 col-xl-3 text-end"><a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-                    aria-controls="offcanvasExample">
-                    <i class="fa-solid fa-bell fa-xl text-warning"></i>
-                </a>
-
+            <div class="col-1 col-xl-3 text-end d-flex align-items-center">
+                <ul class="list-group list-group-horizontal  align-items-center d-xl-flex">
+                    <li class="list-group-item border-0 d-none d-xl-inline-block"><i
+                            class="fa-solid fa-list-ul fa-xl"></i></li>
+                    <li class="list-group-item border-0 d-none d-xl-inline-block"><i
+                            class="fa-solid fa-circle-question fa-xl"></i></li>
+                    <li class="list-group-item border-0 d-none d-xl-inline-block"><i
+                            class="fa-solid fa-ellipsis-vertical fa-xl"></i></li>
+                    <li class="list-group-item border-0"><a data-bs-toggle="offcanvas" href="#offcanvasExample"
+                            role="button" aria-controls="offcanvasExample">
+                            <i class="fa-solid fa-bell fa-xl text-warning"></i>
+                        </a></li>
+                </ul>
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
                     aria-labelledby="offcanvasExampleLabel">
                     <div class="offcanvas-header">
